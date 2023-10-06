@@ -48,3 +48,14 @@ print("exp1 & exp2 with and operater", exp1 and exp2)
 print("exp1 & exp2 with or operater", exp1 or exp2)
 print("exp1 with not operater", not(exp1))
 print("exp2 with not operater", not(exp2))
+
+# Identity Operators
+
+A = 4
+B = 4
+C = "Abdullah"
+
+print ("A and B with (is) operator", A is B)
+print ("A and C with (is) operator", A is C)
+print ("A and B with (is not) operator", A is not B)
+print ("A and C with (is not) operator", A is not C)
