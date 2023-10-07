@@ -59,3 +59,14 @@ print ("A and B with (is) operator", A is B)
 print ("A and C with (is) operator", A is C)
 print ("A and B with (is not) operator", A is not B)
 print ("A and C with (is not) operator", A is not C)
+
+
+# Membership Operators ("in" or "not in")
+
+# (in) Returns True if a sequence with the specified value is present in the object
+# (not in) Returns True if a sequence with the specified value is not present in the object	
+
+fruits = ["Mango", "Banana", "Apple"]
+
+print ("If Apple is present in fruits: ", "Apple" in fruits)
+print ("If Apple is not present in fruits: ", "Apple" not in fruits)
