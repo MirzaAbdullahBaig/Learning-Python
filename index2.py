@@ -70,3 +70,13 @@ fruits = ["Mango", "Banana", "Apple"]
 
 print ("If Apple is present in fruits: ", "Apple" in fruits)
 print ("If Apple is not present in fruits: ", "Apple" not in fruits)
+
+
+# Bitwise Operators (It's very hard)
+
+bit1 = 5
+bit2 = 3
+
+print("bit1 and bit2 with bitwise & operator: ", bit1 & bit2)
+print("bit1 and bit2 with bitwise | operator: ", bit1 | bit2)
+print("bit1 and bit2 with bitwise XOR operator: ", bit1 ^ bit2)
