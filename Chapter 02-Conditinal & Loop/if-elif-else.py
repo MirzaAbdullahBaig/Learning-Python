@@ -34,7 +34,7 @@ else:
     print ("Seller loss", calculate_price,"Rs")
 
 
-# Taking marks of a student and calculate the grade of the student
+# Taking marks of student and calculate the grade of the student
 
 Student_marks = int(input("Enter Your Marks: "))
 
