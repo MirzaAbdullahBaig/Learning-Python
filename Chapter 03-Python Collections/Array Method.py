@@ -39,3 +39,14 @@ print(numbers)
 
 numbers.reverse() # Reseverse
 print(numbers)
+
+# List Comprehension 
+
+marks = [82, 90, 40, 10, 50, 30, 59]
+students = ["Abdullah", "Adil", "Jalib", "Ahmed", "Zain", "Ahad"]
+
+highest_mark = [i for i in marks if i > 80] 
+A_students = [i for i in students if "A" in i]
+
+print(highest_mark)
+print(A_students)
